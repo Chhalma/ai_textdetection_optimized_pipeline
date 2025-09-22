@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+
+# Colab / Jupyter
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb_checkpoints
+
+# Google Drive / Colab temp files
+*.tmp
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+
+# Model checkpoints / large binaries
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.pb
+*.tflite
+*.weights
+
+# Ignore entire models directory inside your project
+ai_textdetection_pipeline/model/*
+models/optimized/*.engine
+models/optimized/*.pt
+
+
+# Dataset folders
+data/
+datasets/
+logs/
+outputs/
+runs/
+
+# IDE / System
+.vscode/
+.idea/

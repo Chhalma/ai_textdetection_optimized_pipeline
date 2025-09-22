@@ -1,0 +1,22 @@
+fastapi
+uvicorn
+pyngrok
+nest-asyncio
+transformers
+
+# Ensure pip + wheel are up-to-date
+pip
+wheel
+
+# GPU-related
+pycuda
+tensorrt-cu12
+tensorrt-lean-cu12
+tensorrt-dispatch-cu12
+
+# Common ML / utilities
+gputil
+scikit-learn
+requests
+pandas
+torch
